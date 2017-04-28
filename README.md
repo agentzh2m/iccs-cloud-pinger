@@ -18,3 +18,7 @@ from outbound
 
 * Furthermore add your public key to aws and name it whatever you want
 then put that name in the keyname variable (do that for every asia region)
+
+* Lastly to run the scipt `python main.py` for some machine that have both
+python2 and python3 use `python3 main.py` because this is a python3
+script if you run with python2 it will die a horrible death

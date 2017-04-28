@@ -1,0 +1,326 @@
+Testing region Seoul
+Lanuching!! --> [ec2.Instance(id='i-0d8f523147f9bc74e')]
+launch time  12
+try to connect to ec2-user@ec2-13-124-85-255.ap-northeast-2.compute.amazonaws.com
+Waiting for everything to be ready
+PING ec2-13-124-85-255.ap-northeast-2.compute.amazonaws.com (13.124.85.255): 56 data bytes
+64 bytes from 13.124.85.255: icmp_seq=0 ttl=230 time=234.041 ms
+64 bytes from 13.124.85.255: icmp_seq=1 ttl=230 time=234.446 ms
+64 bytes from 13.124.85.255: icmp_seq=2 ttl=230 time=283.266 ms
+64 bytes from 13.124.85.255: icmp_seq=3 ttl=230 time=316.274 ms
+64 bytes from 13.124.85.255: icmp_seq=4 ttl=230 time=325.804 ms
+64 bytes from 13.124.85.255: icmp_seq=5 ttl=230 time=236.798 ms
+64 bytes from 13.124.85.255: icmp_seq=6 ttl=230 time=266.910 ms
+64 bytes from 13.124.85.255: icmp_seq=7 ttl=230 time=287.284 ms
+64 bytes from 13.124.85.255: icmp_seq=8 ttl=230 time=311.167 ms
+64 bytes from 13.124.85.255: icmp_seq=9 ttl=230 time=256.086 ms
+
+--- ec2-13-124-85-255.ap-northeast-2.compute.amazonaws.com ping statistics ---
+10 packets transmitted, 10 packets received, 0.0% packet loss
+round-trip min/avg/max/stddev = 234.041/275.208/325.804/33.191 ms
+Waiting for ssh server to be up
+PING www.google.com (172.217.24.132) 56(84) bytes of data.
+64 bytes from syd09s06-in-f4.1e100.net (172.217.24.132): icmp_seq=1 ttl=48 time=31.9 ms
+64 bytes from nrt20s01-in-f4.1e100.net (172.217.24.132): icmp_seq=2 ttl=48 time=32.0 ms
+64 bytes from nrt20s01-in-f132.1e100.net (172.217.24.132): icmp_seq=3 ttl=48 time=31.9 ms
+64 bytes from syd09s06-in-f4.1e100.net (172.217.24.132): icmp_seq=4 ttl=48 time=32.0 ms
+64 bytes from nrt20s01-in-f4.1e100.net (172.217.24.132): icmp_seq=5 ttl=48 time=31.9 ms
+64 bytes from nrt20s01-in-f132.1e100.net (172.217.24.132): icmp_seq=6 ttl=48 time=32.0 ms
+64 bytes from syd09s06-in-f4.1e100.net (172.217.24.132): icmp_seq=7 ttl=48 time=32.4 ms
+64 bytes from nrt20s01-in-f4.1e100.net (172.217.24.132): icmp_seq=8 ttl=48 time=32.0 ms
+64 bytes from nrt20s01-in-f132.1e100.net (172.217.24.132): icmp_seq=9 ttl=48 time=32.2 ms
+64 bytes from syd09s06-in-f4.1e100.net (172.217.24.132): icmp_seq=10 ttl=48 time=32.0 ms
+64 bytes from nrt20s01-in-f4.1e100.net (172.217.24.132): icmp_seq=11 ttl=48 time=32.0 ms
+64 bytes from nrt20s01-in-f132.1e100.net (172.217.24.132): icmp_seq=12 ttl=48 time=34.1 ms
+64 bytes from syd09s06-in-f4.1e100.net (172.217.24.132): icmp_seq=13 ttl=48 time=32.0 ms
+64 bytes from nrt20s01-in-f4.1e100.net (172.217.24.132): icmp_seq=14 ttl=48 time=31.9 ms
+64 bytes from nrt20s01-in-f132.1e100.net (172.217.24.132): icmp_seq=15 ttl=48 time=32.0 ms
+
+--- www.google.com ping statistics ---
+15 packets transmitted, 15 received, 0% packet loss, time 14024ms
+rtt min/avg/max/mdev = 31.935/32.204/34.102/0.542 ms
+
+PING pantip.com (203.151.13.167) 56(84) bytes of data.
+64 bytes from host167.pantip.com (203.151.13.167): icmp_seq=2 ttl=44 time=151 ms
+64 bytes from host167.pantip.com (203.151.13.167): icmp_seq=3 ttl=44 time=146 ms
+64 bytes from host167.pantip.com (203.151.13.167): icmp_seq=4 ttl=44 time=149 ms
+64 bytes from host167.pantip.com (203.151.13.167): icmp_seq=5 ttl=44 time=152 ms
+64 bytes from host167.pantip.com (203.151.13.167): icmp_seq=6 ttl=44 time=149 ms
+64 bytes from host167.pantip.com (203.151.13.167): icmp_seq=7 ttl=44 time=139 ms
+64 bytes from host167.pantip.com (203.151.13.167): icmp_seq=8 ttl=44 time=138 ms
+64 bytes from host167.pantip.com (203.151.13.167): icmp_seq=9 ttl=44 time=148 ms
+64 bytes from host167.pantip.com (203.151.13.167): icmp_seq=10 ttl=44 time=144 ms
+64 bytes from host167.pantip.com (203.151.13.167): icmp_seq=11 ttl=44 time=148 ms
+64 bytes from host167.pantip.com (203.151.13.167): icmp_seq=12 ttl=44 time=149 ms
+64 bytes from host167.pantip.com (203.151.13.167): icmp_seq=13 ttl=44 time=143 ms
+64 bytes from host167.pantip.com (203.151.13.167): icmp_seq=14 ttl=44 time=151 ms
+64 bytes from host167.pantip.com (203.151.13.167): icmp_seq=15 ttl=44 time=151 ms
+
+--- pantip.com ping statistics ---
+15 packets transmitted, 14 received, 6% packet loss, time 14036ms
+rtt min/avg/max/mdev = 138.311/147.572/152.778/4.496 ms
+{'TerminatingInstances': [{'CurrentState': {'Name': 'shutting-down', 'Code': 32}, 'PreviousState': {'Name': 'running', 'Code': 16}, 'InstanceId': 'i-0d8f523147f9bc74e'}], 'ResponseMetadata': {'HTTPStatusCode': 200, 'RetryAttempts': 0, 'RequestId': '4b0919dc-1eda-4510-b808-15cef2c2c573', 'HTTPHeaders': {'content-type': 'text/xml;charset=UTF-8', 'vary': 'Accept-Encoding', 'transfer-encoding': 'chunked', 'server': 'AmazonEC2', 'date': 'Fri, 28 Apr 2017 09:18:49 GMT'}}}
+Terminate the instance in region ap-northeast-2 after executing all command
+====================================================================================================
+Testing region Sydney
+Lanuching!! --> [ec2.Instance(id='i-0d75823fbb2bf5d2c')]
+launch time  13
+try to connect to ec2-user@ec2-54-206-127-90.ap-southeast-2.compute.amazonaws.com
+Waiting for everything to be ready
+PING ec2-54-206-127-90.ap-southeast-2.compute.amazonaws.com (54.206.127.90): 56 data bytes
+64 bytes from 54.206.127.90: icmp_seq=0 ttl=234 time=190.603 ms
+64 bytes from 54.206.127.90: icmp_seq=1 ttl=234 time=193.821 ms
+64 bytes from 54.206.127.90: icmp_seq=2 ttl=234 time=294.350 ms
+64 bytes from 54.206.127.90: icmp_seq=3 ttl=234 time=187.857 ms
+64 bytes from 54.206.127.90: icmp_seq=4 ttl=234 time=189.741 ms
+64 bytes from 54.206.127.90: icmp_seq=5 ttl=234 time=187.775 ms
+64 bytes from 54.206.127.90: icmp_seq=6 ttl=234 time=187.719 ms
+64 bytes from 54.206.127.90: icmp_seq=7 ttl=234 time=199.669 ms
+64 bytes from 54.206.127.90: icmp_seq=8 ttl=234 time=188.516 ms
+64 bytes from 54.206.127.90: icmp_seq=9 ttl=234 time=187.762 ms
+
+--- ec2-54-206-127-90.ap-southeast-2.compute.amazonaws.com ping statistics ---
+10 packets transmitted, 10 packets received, 0.0% packet loss
+round-trip min/avg/max/stddev = 187.719/200.781/294.350/31.396 ms
+Waiting for ssh server to be up
+PING www.google.com (216.58.199.36) 56(84) bytes of data.
+64 bytes from syd09s12-in-f4.1e100.net (216.58.199.36): icmp_seq=1 ttl=56 time=1.59 ms
+64 bytes from syd09s12-in-f36.1e100.net (216.58.199.36): icmp_seq=2 ttl=56 time=1.62 ms
+64 bytes from syd09s12-in-f4.1e100.net (216.58.199.36): icmp_seq=3 ttl=56 time=1.69 ms
+64 bytes from syd09s12-in-f36.1e100.net (216.58.199.36): icmp_seq=4 ttl=56 time=1.65 ms
+64 bytes from syd09s12-in-f4.1e100.net (216.58.199.36): icmp_seq=5 ttl=56 time=1.64 ms
+64 bytes from syd09s12-in-f36.1e100.net (216.58.199.36): icmp_seq=6 ttl=56 time=1.59 ms
+64 bytes from syd09s12-in-f4.1e100.net (216.58.199.36): icmp_seq=7 ttl=56 time=1.67 ms
+64 bytes from syd09s12-in-f36.1e100.net (216.58.199.36): icmp_seq=8 ttl=56 time=1.72 ms
+64 bytes from syd09s12-in-f4.1e100.net (216.58.199.36): icmp_seq=9 ttl=56 time=1.63 ms
+64 bytes from syd09s12-in-f36.1e100.net (216.58.199.36): icmp_seq=10 ttl=56 time=1.65 ms
+64 bytes from syd09s12-in-f4.1e100.net (216.58.199.36): icmp_seq=11 ttl=56 time=1.67 ms
+64 bytes from syd09s12-in-f36.1e100.net (216.58.199.36): icmp_seq=12 ttl=56 time=1.61 ms
+64 bytes from syd09s12-in-f4.1e100.net (216.58.199.36): icmp_seq=13 ttl=56 time=1.73 ms
+64 bytes from syd09s12-in-f36.1e100.net (216.58.199.36): icmp_seq=14 ttl=56 time=1.69 ms
+64 bytes from syd09s12-in-f4.1e100.net (216.58.199.36): icmp_seq=15 ttl=56 time=1.63 ms
+
+--- www.google.com ping statistics ---
+15 packets transmitted, 15 received, 0% packet loss, time 14021ms
+rtt min/avg/max/mdev = 1.595/1.656/1.730/0.049 ms
+
+PING pantip.com (203.151.13.166) 56(84) bytes of data.
+64 bytes from host166.pantip.com (203.151.13.166): icmp_seq=1 ttl=48 time=175 ms
+64 bytes from host166.pantip.com (203.151.13.166): icmp_seq=2 ttl=48 time=175 ms
+64 bytes from host166.pantip.com (203.151.13.166): icmp_seq=3 ttl=48 time=175 ms
+64 bytes from host166.pantip.com (203.151.13.166): icmp_seq=4 ttl=48 time=175 ms
+64 bytes from host166.pantip.com (203.151.13.166): icmp_seq=5 ttl=48 time=175 ms
+64 bytes from host166.pantip.com (203.151.13.166): icmp_seq=6 ttl=48 time=175 ms
+64 bytes from host166.pantip.com (203.151.13.166): icmp_seq=7 ttl=48 time=175 ms
+64 bytes from host166.pantip.com (203.151.13.166): icmp_seq=8 ttl=48 time=175 ms
+64 bytes from host166.pantip.com (203.151.13.166): icmp_seq=9 ttl=48 time=175 ms
+64 bytes from host166.pantip.com (203.151.13.166): icmp_seq=10 ttl=48 time=175 ms
+64 bytes from host166.pantip.com (203.151.13.166): icmp_seq=11 ttl=48 time=175 ms
+64 bytes from host166.pantip.com (203.151.13.166): icmp_seq=12 ttl=48 time=175 ms
+64 bytes from host166.pantip.com (203.151.13.166): icmp_seq=13 ttl=48 time=175 ms
+64 bytes from host166.pantip.com (203.151.13.166): icmp_seq=14 ttl=48 time=175 ms
+64 bytes from host166.pantip.com (203.151.13.166): icmp_seq=15 ttl=48 time=175 ms
+
+--- pantip.com ping statistics ---
+15 packets transmitted, 15 received, 0% packet loss, time 14021ms
+rtt min/avg/max/mdev = 175.002/175.133/175.487/0.500 ms
+{'TerminatingInstances': [{'CurrentState': {'Name': 'shutting-down', 'Code': 32}, 'PreviousState': {'Name': 'running', 'Code': 16}, 'InstanceId': 'i-0d75823fbb2bf5d2c'}], 'ResponseMetadata': {'HTTPStatusCode': 200, 'RetryAttempts': 0, 'RequestId': '38745cff-24fa-4b30-bf2b-e61da701e2df', 'HTTPHeaders': {'content-type': 'text/xml;charset=UTF-8', 'vary': 'Accept-Encoding', 'transfer-encoding': 'chunked', 'server': 'AmazonEC2', 'date': 'Fri, 28 Apr 2017 09:20:39 GMT'}}}
+Terminate the instance in region ap-southeast-2 after executing all command
+====================================================================================================
+Testing region Tokyo
+Lanuching!! --> [ec2.Instance(id='i-0f476623d1f91fa33')]
+launch time  12
+try to connect to ec2-user@ec2-54-250-224-178.ap-northeast-1.compute.amazonaws.com
+Waiting for everything to be ready
+PING ec2-54-250-224-178.ap-northeast-1.compute.amazonaws.com (54.250.224.178): 56 data bytes
+64 bytes from 54.250.224.178: icmp_seq=0 ttl=231 time=103.897 ms
+64 bytes from 54.250.224.178: icmp_seq=1 ttl=231 time=102.321 ms
+64 bytes from 54.250.224.178: icmp_seq=2 ttl=231 time=103.782 ms
+64 bytes from 54.250.224.178: icmp_seq=3 ttl=231 time=105.102 ms
+64 bytes from 54.250.224.178: icmp_seq=4 ttl=231 time=102.046 ms
+64 bytes from 54.250.224.178: icmp_seq=5 ttl=231 time=102.179 ms
+64 bytes from 54.250.224.178: icmp_seq=6 ttl=231 time=103.166 ms
+64 bytes from 54.250.224.178: icmp_seq=7 ttl=231 time=108.338 ms
+64 bytes from 54.250.224.178: icmp_seq=8 ttl=231 time=103.767 ms
+64 bytes from 54.250.224.178: icmp_seq=9 ttl=231 time=102.424 ms
+
+--- ec2-54-250-224-178.ap-northeast-1.compute.amazonaws.com ping statistics ---
+10 packets transmitted, 10 packets received, 0.0% packet loss
+round-trip min/avg/max/stddev = 102.046/103.702/108.338/1.800 ms
+Waiting for ssh server to be up
+PING www.google.com (216.58.221.4) 56(84) bytes of data.
+64 bytes from nrt13s38-in-f4.1e100.net (216.58.221.4): icmp_seq=1 ttl=53 time=1.62 ms
+64 bytes from nrt13s38-in-f4.1e100.net (216.58.221.4): icmp_seq=2 ttl=53 time=1.75 ms
+64 bytes from nrt13s38-in-f4.1e100.net (216.58.221.4): icmp_seq=3 ttl=53 time=1.63 ms
+64 bytes from nrt13s38-in-f4.1e100.net (216.58.221.4): icmp_seq=4 ttl=53 time=1.69 ms
+64 bytes from nrt13s38-in-f4.1e100.net (216.58.221.4): icmp_seq=5 ttl=53 time=1.70 ms
+64 bytes from nrt13s38-in-f4.1e100.net (216.58.221.4): icmp_seq=6 ttl=53 time=1.69 ms
+64 bytes from nrt13s38-in-f4.1e100.net (216.58.221.4): icmp_seq=7 ttl=53 time=1.69 ms
+64 bytes from nrt13s38-in-f4.1e100.net (216.58.221.4): icmp_seq=8 ttl=53 time=2.35 ms
+64 bytes from nrt13s38-in-f4.1e100.net (216.58.221.4): icmp_seq=9 ttl=53 time=1.75 ms
+64 bytes from nrt13s38-in-f4.1e100.net (216.58.221.4): icmp_seq=10 ttl=53 time=1.67 ms
+64 bytes from nrt13s38-in-f4.1e100.net (216.58.221.4): icmp_seq=11 ttl=53 time=1.69 ms
+64 bytes from nrt13s38-in-f4.1e100.net (216.58.221.4): icmp_seq=12 ttl=53 time=1.72 ms
+64 bytes from nrt13s38-in-f4.1e100.net (216.58.221.4): icmp_seq=13 ttl=53 time=1.65 ms
+64 bytes from nrt13s38-in-f4.1e100.net (216.58.221.4): icmp_seq=14 ttl=53 time=1.67 ms
+64 bytes from nrt13s38-in-f4.1e100.net (216.58.221.4): icmp_seq=15 ttl=53 time=1.72 ms
+
+--- www.google.com ping statistics ---
+15 packets transmitted, 15 received, 0% packet loss, time 14021ms
+rtt min/avg/max/mdev = 1.623/1.737/2.354/0.169 ms
+
+PING pantip.com (203.151.13.169) 56(84) bytes of data.
+64 bytes from host169.pantip.com (203.151.13.169): icmp_seq=1 ttl=46 time=103 ms
+64 bytes from host169.pantip.com (203.151.13.169): icmp_seq=2 ttl=46 time=103 ms
+64 bytes from host169.pantip.com (203.151.13.169): icmp_seq=3 ttl=46 time=103 ms
+64 bytes from host169.pantip.com (203.151.13.169): icmp_seq=4 ttl=46 time=104 ms
+64 bytes from host169.pantip.com (203.151.13.169): icmp_seq=5 ttl=46 time=103 ms
+64 bytes from host169.pantip.com (203.151.13.169): icmp_seq=6 ttl=46 time=103 ms
+64 bytes from host169.pantip.com (203.151.13.169): icmp_seq=7 ttl=46 time=103 ms
+64 bytes from host169.pantip.com (203.151.13.169): icmp_seq=8 ttl=46 time=103 ms
+64 bytes from host169.pantip.com (203.151.13.169): icmp_seq=9 ttl=46 time=103 ms
+64 bytes from host169.pantip.com (203.151.13.169): icmp_seq=10 ttl=46 time=103 ms
+64 bytes from host169.pantip.com (203.151.13.169): icmp_seq=11 ttl=46 time=103 ms
+64 bytes from host169.pantip.com (203.151.13.169): icmp_seq=12 ttl=46 time=103 ms
+64 bytes from host169.pantip.com (203.151.13.169): icmp_seq=13 ttl=46 time=103 ms
+64 bytes from host169.pantip.com (203.151.13.169): icmp_seq=14 ttl=46 time=103 ms
+64 bytes from host169.pantip.com (203.151.13.169): icmp_seq=15 ttl=46 time=103 ms
+
+--- pantip.com ping statistics ---
+15 packets transmitted, 15 received, 0% packet loss, time 14017ms
+rtt min/avg/max/mdev = 103.369/103.575/104.030/0.461 ms
+{'TerminatingInstances': [{'CurrentState': {'Name': 'shutting-down', 'Code': 32}, 'PreviousState': {'Name': 'running', 'Code': 16}, 'InstanceId': 'i-0f476623d1f91fa33'}], 'ResponseMetadata': {'HTTPStatusCode': 200, 'RetryAttempts': 0, 'RequestId': '93bfd387-17e5-464a-8f57-847bd8f11f2e', 'HTTPHeaders': {'content-type': 'text/xml;charset=UTF-8', 'vary': 'Accept-Encoding', 'transfer-encoding': 'chunked', 'server': 'AmazonEC2', 'date': 'Fri, 28 Apr 2017 09:22:27 GMT'}}}
+Terminate the instance in region ap-northeast-1 after executing all command
+====================================================================================================
+Testing region Singapore
+Lanuching!! --> [ec2.Instance(id='i-09835cfde0070f88b')]
+launch time  15
+try to connect to ec2-user@ec2-54-169-118-35.ap-southeast-1.compute.amazonaws.com
+Waiting for everything to be ready
+PING ec2-54-169-118-35.ap-southeast-1.compute.amazonaws.com (54.169.118.35): 56 data bytes
+64 bytes from 54.169.118.35: icmp_seq=0 ttl=234 time=41.994 ms
+64 bytes from 54.169.118.35: icmp_seq=1 ttl=234 time=40.857 ms
+64 bytes from 54.169.118.35: icmp_seq=2 ttl=234 time=46.535 ms
+64 bytes from 54.169.118.35: icmp_seq=3 ttl=234 time=62.370 ms
+64 bytes from 54.169.118.35: icmp_seq=4 ttl=234 time=42.573 ms
+64 bytes from 54.169.118.35: icmp_seq=5 ttl=234 time=41.805 ms
+64 bytes from 54.169.118.35: icmp_seq=6 ttl=234 time=41.090 ms
+64 bytes from 54.169.118.35: icmp_seq=7 ttl=234 time=42.719 ms
+64 bytes from 54.169.118.35: icmp_seq=8 ttl=234 time=42.248 ms
+64 bytes from 54.169.118.35: icmp_seq=9 ttl=234 time=41.218 ms
+
+--- ec2-54-169-118-35.ap-southeast-1.compute.amazonaws.com ping statistics ---
+10 packets transmitted, 10 packets received, 0.0% packet loss
+round-trip min/avg/max/stddev = 40.857/44.341/62.370/6.200 ms
+Waiting for ssh server to be up
+PING www.google.com (216.58.203.228) 56(84) bytes of data.
+64 bytes from sin11s01-in-f228.1e100.net (216.58.203.228): icmp_seq=1 ttl=53 time=2.53 ms
+64 bytes from sin11s01-in-f4.1e100.net (216.58.203.228): icmp_seq=2 ttl=53 time=2.51 ms
+64 bytes from sin11s01-in-f228.1e100.net (216.58.203.228): icmp_seq=3 ttl=53 time=2.48 ms
+64 bytes from sin11s01-in-f4.1e100.net (216.58.203.228): icmp_seq=4 ttl=53 time=2.57 ms
+64 bytes from sin11s01-in-f228.1e100.net (216.58.203.228): icmp_seq=5 ttl=53 time=2.54 ms
+64 bytes from sin11s01-in-f4.1e100.net (216.58.203.228): icmp_seq=6 ttl=53 time=2.74 ms
+64 bytes from sin11s01-in-f228.1e100.net (216.58.203.228): icmp_seq=7 ttl=53 time=2.55 ms
+64 bytes from sin11s01-in-f4.1e100.net (216.58.203.228): icmp_seq=8 ttl=53 time=2.52 ms
+64 bytes from sin11s01-in-f228.1e100.net (216.58.203.228): icmp_seq=9 ttl=53 time=2.59 ms
+64 bytes from sin11s01-in-f4.1e100.net (216.58.203.228): icmp_seq=10 ttl=53 time=2.56 ms
+64 bytes from sin11s01-in-f228.1e100.net (216.58.203.228): icmp_seq=11 ttl=53 time=2.62 ms
+64 bytes from sin11s01-in-f4.1e100.net (216.58.203.228): icmp_seq=12 ttl=53 time=2.61 ms
+64 bytes from sin11s01-in-f228.1e100.net (216.58.203.228): icmp_seq=13 ttl=53 time=2.57 ms
+64 bytes from sin11s01-in-f4.1e100.net (216.58.203.228): icmp_seq=14 ttl=53 time=2.60 ms
+64 bytes from sin11s01-in-f228.1e100.net (216.58.203.228): icmp_seq=15 ttl=53 time=2.55 ms
+
+--- www.google.com ping statistics ---
+15 packets transmitted, 15 received, 0% packet loss, time 14020ms
+rtt min/avg/max/mdev = 2.483/2.573/2.741/0.090 ms
+
+PING pantip.com (203.151.13.166) 56(84) bytes of data.
+64 bytes from host166.pantip.com (203.151.13.166): icmp_seq=1 ttl=51 time=32.3 ms
+64 bytes from host166.pantip.com (203.151.13.166): icmp_seq=2 ttl=51 time=32.4 ms
+64 bytes from host166.pantip.com (203.151.13.166): icmp_seq=3 ttl=51 time=32.3 ms
+64 bytes from host166.pantip.com (203.151.13.166): icmp_seq=4 ttl=51 time=32.5 ms
+64 bytes from host166.pantip.com (203.151.13.166): icmp_seq=5 ttl=51 time=32.8 ms
+64 bytes from host166.pantip.com (203.151.13.166): icmp_seq=6 ttl=51 time=32.4 ms
+64 bytes from host166.pantip.com (203.151.13.166): icmp_seq=7 ttl=51 time=33.8 ms
+64 bytes from host166.pantip.com (203.151.13.166): icmp_seq=8 ttl=51 time=32.2 ms
+64 bytes from host166.pantip.com (203.151.13.166): icmp_seq=9 ttl=51 time=32.4 ms
+64 bytes from host166.pantip.com (203.151.13.166): icmp_seq=10 ttl=51 time=32.4 ms
+64 bytes from host166.pantip.com (203.151.13.166): icmp_seq=11 ttl=51 time=32.8 ms
+64 bytes from host166.pantip.com (203.151.13.166): icmp_seq=12 ttl=51 time=32.6 ms
+64 bytes from host166.pantip.com (203.151.13.166): icmp_seq=13 ttl=51 time=33.5 ms
+64 bytes from host166.pantip.com (203.151.13.166): icmp_seq=14 ttl=51 time=32.8 ms
+64 bytes from host166.pantip.com (203.151.13.166): icmp_seq=15 ttl=51 time=32.4 ms
+
+--- pantip.com ping statistics ---
+15 packets transmitted, 15 received, 0% packet loss, time 14020ms
+rtt min/avg/max/mdev = 32.275/32.688/33.892/0.456 ms
+{'TerminatingInstances': [{'CurrentState': {'Name': 'shutting-down', 'Code': 32}, 'PreviousState': {'Name': 'running', 'Code': 16}, 'InstanceId': 'i-09835cfde0070f88b'}], 'ResponseMetadata': {'HTTPStatusCode': 200, 'RetryAttempts': 0, 'RequestId': '107e5be4-dc0e-45a5-a5a3-4c161a6969e6', 'HTTPHeaders': {'content-type': 'text/xml;charset=UTF-8', 'vary': 'Accept-Encoding', 'transfer-encoding': 'chunked', 'server': 'AmazonEC2', 'date': 'Fri, 28 Apr 2017 09:24:13 GMT'}}}
+Terminate the instance in region ap-southeast-1 after executing all command
+====================================================================================================
+Testing region Mumbai
+Lanuching!! --> [ec2.Instance(id='i-061807b92ab1ef8a7')]
+launch time  11
+try to connect to ec2-user@ec2-35-154-92-64.ap-south-1.compute.amazonaws.com
+Waiting for everything to be ready
+PING ec2-35-154-92-64.ap-south-1.compute.amazonaws.com (35.154.92.64): 56 data bytes
+64 bytes from 35.154.92.64: icmp_seq=0 ttl=226 time=88.707 ms
+64 bytes from 35.154.92.64: icmp_seq=1 ttl=226 time=90.319 ms
+64 bytes from 35.154.92.64: icmp_seq=2 ttl=226 time=90.210 ms
+64 bytes from 35.154.92.64: icmp_seq=3 ttl=226 time=88.954 ms
+64 bytes from 35.154.92.64: icmp_seq=4 ttl=226 time=88.790 ms
+64 bytes from 35.154.92.64: icmp_seq=5 ttl=226 time=90.348 ms
+64 bytes from 35.154.92.64: icmp_seq=6 ttl=226 time=87.778 ms
+64 bytes from 35.154.92.64: icmp_seq=7 ttl=226 time=90.285 ms
+64 bytes from 35.154.92.64: icmp_seq=8 ttl=226 time=89.864 ms
+64 bytes from 35.154.92.64: icmp_seq=9 ttl=226 time=88.901 ms
+
+--- ec2-35-154-92-64.ap-south-1.compute.amazonaws.com ping statistics ---
+10 packets transmitted, 10 packets received, 0.0% packet loss
+round-trip min/avg/max/stddev = 87.778/89.416/90.348/0.856 ms
+Waiting for ssh server to be up
+PING www.google.com (216.58.220.164) 56(84) bytes of data.
+64 bytes from bom07s10-in-f164.1e100.net (216.58.220.164): icmp_seq=1 ttl=49 time=22.8 ms
+64 bytes from bom07s10-in-f4.1e100.net (216.58.220.164): icmp_seq=2 ttl=49 time=22.8 ms
+64 bytes from bom07s10-in-f164.1e100.net (216.58.220.164): icmp_seq=3 ttl=49 time=22.5 ms
+64 bytes from bom07s10-in-f4.1e100.net (216.58.220.164): icmp_seq=4 ttl=49 time=22.5 ms
+64 bytes from bom07s10-in-f164.1e100.net (216.58.220.164): icmp_seq=5 ttl=49 time=22.5 ms
+64 bytes from bom07s10-in-f4.1e100.net (216.58.220.164): icmp_seq=6 ttl=49 time=22.5 ms
+64 bytes from bom07s10-in-f164.1e100.net (216.58.220.164): icmp_seq=7 ttl=49 time=22.5 ms
+64 bytes from bom07s10-in-f4.1e100.net (216.58.220.164): icmp_seq=8 ttl=49 time=22.6 ms
+64 bytes from bom07s10-in-f164.1e100.net (216.58.220.164): icmp_seq=9 ttl=49 time=22.5 ms
+64 bytes from bom07s10-in-f4.1e100.net (216.58.220.164): icmp_seq=10 ttl=49 time=22.5 ms
+64 bytes from bom07s10-in-f164.1e100.net (216.58.220.164): icmp_seq=11 ttl=49 time=22.5 ms
+64 bytes from bom07s10-in-f4.1e100.net (216.58.220.164): icmp_seq=12 ttl=49 time=22.5 ms
+64 bytes from bom07s10-in-f164.1e100.net (216.58.220.164): icmp_seq=13 ttl=49 time=22.6 ms
+64 bytes from bom07s10-in-f4.1e100.net (216.58.220.164): icmp_seq=14 ttl=49 time=22.6 ms
+64 bytes from bom07s10-in-f164.1e100.net (216.58.220.164): icmp_seq=15 ttl=49 time=22.5 ms
+
+--- www.google.com ping statistics ---
+15 packets transmitted, 15 received, 0% packet loss, time 14019ms
+rtt min/avg/max/mdev = 22.518/22.619/22.841/0.152 ms
+
+PING pantip.com (203.151.13.169) 56(84) bytes of data.
+64 bytes from host169.pantip.com (203.151.13.169): icmp_seq=1 ttl=44 time=88.3 ms
+64 bytes from host169.pantip.com (203.151.13.169): icmp_seq=2 ttl=44 time=85.3 ms
+64 bytes from host169.pantip.com (203.151.13.169): icmp_seq=3 ttl=44 time=85.2 ms
+64 bytes from host169.pantip.com (203.151.13.169): icmp_seq=4 ttl=44 time=85.2 ms
+64 bytes from host169.pantip.com (203.151.13.169): icmp_seq=5 ttl=44 time=85.3 ms
+64 bytes from host169.pantip.com (203.151.13.169): icmp_seq=6 ttl=44 time=85.2 ms
+64 bytes from host169.pantip.com (203.151.13.169): icmp_seq=7 ttl=44 time=85.1 ms
+64 bytes from host169.pantip.com (203.151.13.169): icmp_seq=8 ttl=44 time=85.2 ms
+64 bytes from host169.pantip.com (203.151.13.169): icmp_seq=9 ttl=44 time=85.2 ms
+64 bytes from host169.pantip.com (203.151.13.169): icmp_seq=10 ttl=44 time=85.2 ms
+64 bytes from host169.pantip.com (203.151.13.169): icmp_seq=11 ttl=44 time=85.2 ms
+64 bytes from host169.pantip.com (203.151.13.169): icmp_seq=12 ttl=44 time=85.3 ms
+64 bytes from host169.pantip.com (203.151.13.169): icmp_seq=13 ttl=44 time=85.6 ms
+64 bytes from host169.pantip.com (203.151.13.169): icmp_seq=14 ttl=44 time=85.3 ms
+64 bytes from host169.pantip.com (203.151.13.169): icmp_seq=15 ttl=44 time=85.1 ms
+
+--- pantip.com ping statistics ---
+15 packets transmitted, 15 received, 0% packet loss, time 14022ms
+rtt min/avg/max/mdev = 85.175/85.493/88.301/0.759 ms
+{'TerminatingInstances': [{'CurrentState': {'Name': 'shutting-down', 'Code': 32}, 'PreviousState': {'Name': 'running', 'Code': 16}, 'InstanceId': 'i-061807b92ab1ef8a7'}], 'ResponseMetadata': {'HTTPStatusCode': 200, 'RetryAttempts': 0, 'RequestId': '5b9d19f9-a554-40cb-bdd8-0b356e7f5802', 'HTTPHeaders': {'content-type': 'text/xml;charset=UTF-8', 'vary': 'Accept-Encoding', 'transfer-encoding': 'chunked', 'server': 'AmazonEC2', 'date': 'Fri, 28 Apr 2017 09:25:58 GMT'}}}
+Terminate the instance in region ap-south-1 after executing all command
+====================================================================================================
+average starting time is 12.6
+The whole test is finish!!! yeh
